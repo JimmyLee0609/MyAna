@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            id="MyAna.category1"
+            name="MyViewClass">
+      </category>
+      <view
+            category="MyAna.category1"
+            class="myana.UmlView"
+            id="MyAna.view1"
+            name="name"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>

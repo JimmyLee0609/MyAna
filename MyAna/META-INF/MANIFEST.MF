@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MyAna
+Bundle-SymbolicName: MyAna;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: myana.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ javassist;bundle-version="1.0.0",
+ org.eclipse.draw2d
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: myana,
+ myshape.enty,
+ myshape.enty.adapter
